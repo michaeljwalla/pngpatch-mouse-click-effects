@@ -96,7 +96,7 @@ var PointerWatcher = class PointerWatcher {
 
         this._timeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, minInterval,
             this._onTimeout.bind(this));
-        GLib.Source.set_name_by_id(this._timeoutId, '[cinnamon mouse-click-effects] PointerWatcher._updateTimeout');
+        GLib.Source.set_name_by_id(this._timeoutId, '[cinnamon pngpatch-mouse-click-effects] PointerWatcher._updateTimeout');
     }
 
     _onTimeout() {

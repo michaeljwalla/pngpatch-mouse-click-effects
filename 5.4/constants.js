@@ -19,7 +19,7 @@
 
 const DEBUG = false;
 
-const UUID = "mouse-click-effects@anaximeno";
+const UUID = "pngpatch-mouse-click-effects@michaeljwalla";
 
 const PAUSE_EFFECTS_KEY = `${UUID}-bind-pause-effects`;
 
